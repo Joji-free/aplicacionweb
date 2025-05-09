@@ -62,8 +62,8 @@ public class Aplicacion extends HttpServlet {
             //Abrimos el documento para editar
             doc.open();
             // Agregar contenido al PDF
-            doc.add(new Paragraph("Reporte de Ejemplo"));
-            doc.add(new Paragraph("Este es un PDF generado profesionalmente usando iText"));
+            doc.add(new Paragraph("Reporte de Ejemplo de PDF "));
+            doc.add(new Paragraph("Hola Mundo desde Java con un PDF"));
             doc.add(new Paragraph("\n")); // Salto de línea
             // Podemos agregar más elementos aquí:
             doc.close();
