@@ -1,10 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <meta charset="UTF-8">
+    <title>Aplicaccion Web</title>
 </head>
-<body>
-$END$
-</body>
+<h1>Descargar Archivos</h1>
+
+<form action="descargar" method="get">
+    <input type="hidden" name="tipo" value="excel">
+    <button type="submit">Descargar Excel</button>
+</form>
+
+<br>
+
+<form action="descargar" method="get">
+    <input type="hidden" name="tipo" value="pdf">
+    <button type="submit">Descargar PDF</button>
+</form>
 </html>

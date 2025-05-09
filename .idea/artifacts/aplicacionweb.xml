@@ -6,6 +6,9 @@
         <element id="directory" name="classes">
           <element id="module-output" name="aplicacionweb" />
         </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: com.itextpdf:itextpdf:5.5.13.3" />
+        </element>
       </element>
       <element id="javaee-facet-resources" facet="aplicacionweb/web/Web" />
     </root>
