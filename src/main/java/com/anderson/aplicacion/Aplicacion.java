@@ -1,5 +1,10 @@
 package com.anderson.aplicacion;
-
+/*
+ * desarrollador: Anderson Soto
+ * fechas: 08/05/2025
+ * descripcion: Creacion de una aplicacion web
+ * donde se van a crear metodos de descargas de un archivo excel y pdf
+ */
 import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.HttpServlet;
@@ -67,3 +72,4 @@ public class Aplicacion extends HttpServlet {
         }
     }
 }
+
